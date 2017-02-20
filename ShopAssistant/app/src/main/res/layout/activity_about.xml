@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="se.liu.ida.hanal086.hannes.shopassistant.AboutActivity" >
+
+    <LinearLayout
+        android:id="@+id/about_aboutAppTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="18"
+        android:paddingBottom="@dimen/defaultMediumButtonHeight"
+        android:layout_above="@+id/about_backToMainMenuButton" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_aboutAppTextHead"
+            android:textSize="@dimen/defaultHeadTextSize"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_aboutAppTextIntro"
+            android:textSize="@dimen/defaultBodyTextSize"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_aboutAppTextBody"
+            android:textSize="@dimen/defaultBodyTextSize"
+            android:layout_weight="14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_importantReminder"
+            android:textSize="@dimen/defaultBodyTextSize"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/about_backToMainMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general_backToMainMenuButton"
+        android:textSize="@dimen/defaultButtonTextSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

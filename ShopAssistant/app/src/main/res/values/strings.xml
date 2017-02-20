@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ShopAssistant</string>
+
+    <!-- Firebase -->
+    <string name="firebase_URL">https://shopassistant-31b61.firebaseio.com/</string>
+    <string name="firebase_projectID">shopassistant-31b61</string>
+    <string name="firebase_clientID">150490076093-185q0qugb77nlfqfbhe8so99k5u5sn68.apps.googleusercontent.com</string>
+
+    <!-- General values -->
+    <string name="general_backToMainMenuButton">Main menu</string>
+
+    <!-- Main-Page -->
+    <string name="main_settingsButton">Settings</string>
+    <string name="main_aboutButton">About</string>
+    <string name="main_savePosButton">Save position!</string>
+    <string name="main_shopListButton">Shopping List</string>
+    <string name="main_signOutButton">Sign out</string>
+    <string name="main_currentUserLabel">Logged in as: </string>
+    <string name="main_currentLoggedInUserDefaultText">No logged in user found!</string>
+    <string name="main_compassNotActivated">Click to enable!</string>
+
+    <!-- ShopList-page -->
+    <string name="shoplist_listAmountLabel">List Amount:</string>
+    <string name="shoplist_listAmount">(No lists)</string>
+    <string name="shoplist_defaultListTitle">title text</string>
+    <string name="shoplist_defaultListDescription">description text</string>
+    <string name="shoplist_createNewListButton">Create new list</string>
+
+    <!-- SingleList-page -->
+    <string name="singleList_addButton">Add new item</string>
+    <string name="singleList_defaultSingleListName">NewList</string>
+    <string name="singleList_backButton">Back to lists</string>
+    <string name="singleList_listNameLabel">ListName: </string>
+
+
+    <!-- About-page -->
+    <string name="about_aboutAppTextHead">About: </string>
+    <string name="about_aboutAppTextIntro">
+        ShopAssistant is an app created helping its users with their shopping.
+    </string>
+    <string name="about_aboutAppTextBody">
+        The app does this by targeting two main obstacles when shopping.\n
+        The user is given the abilities of storing the location of a parked
+        car to be guided back to later and the ability to store multiple shoppinglists all within the app!
+    </string>
+    <string name="about_importantReminder">
+        IMPORTANT! Remember to always keep your phones GPS-tracker on at all times when
+        using compassModule. Otherwise the module won\'t work!
+    </string>
+
+</resources>

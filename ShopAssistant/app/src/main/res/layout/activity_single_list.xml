@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_single_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="se.liu.ida.hanal086.hannes.shopassistant.SingleListActivity">
+
+    <LinearLayout
+        android:id="@+id/singleList_listnameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/singleList_listNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/singleList_listNameLabel"
+            android:textSize="@dimen/defaultButtonTextSize"
+            android:layout_weight="1"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/singleList_listName"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/defaultSmallButtonHeight"
+            android:text="@string/singleList_defaultSingleListName"
+            android:textSize="@dimen/defaultButtonTextSize"
+            android:layout_weight="2"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/singleList_addButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/singleList_addButton"
+        android:textAllCaps="false"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:id="@+id/singleList_itemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:paddingTop="2dp" >
+
+        <ListView
+            android:id="@+id/singleList_listItemView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/singleList_backButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/singleList_backButton"
+        android:layout_weight="1"
+        android:textAllCaps="false" />
+
+</LinearLayout>

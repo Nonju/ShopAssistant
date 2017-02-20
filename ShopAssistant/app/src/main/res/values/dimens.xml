@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Screen Sizes (ESTIMATES!!)-->
+    <dimen name="screenHalfWidth">160dp</dimen>
+    <dimen name="screenQuarterWidth">85dp</dimen>
+    <dimen name="screenHalfHeight">270dp</dimen>
+
+    <!-- Default Button sizes -->
+    <dimen name="defaultLoginButtonHeight">80dp</dimen>
+    <dimen name="defaultMediumButtonHeight">60dp</dimen>
+    <dimen name="defaultSmallButtonHeight">40dp</dimen>
+
+    <!-- Default Text-sizes -->
+    <dimen name="defaultButtonTextSize">17sp</dimen>
+    <dimen name="defaultListItemTextSize">16sp</dimen>
+    <dimen name="defaultHeadTextSize">22sp</dimen>
+    <dimen name="defaultBodyTextSize">16sp</dimen>
+    <string name="defaultPopoverTextSize">60</string>
+
+    <!-- Default Paddings -->
+    <dimen name="defaultListItemPadding">14dp</dimen>
+
+
+</resources>

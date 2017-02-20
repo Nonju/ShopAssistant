@@ -1,0 +1,33 @@
+
+/*
+ * Sources to various tutorials / guides / etc found
+ * that could be useful to read at a later time.
+ *
+ */
+
+
+FirebaseAuth tutorial:
+    - https://www.youtube.com/watch?v=MFWZLYFD8yI
+
+Firebase check if user already exists:
+    - http://stackoverflow.com/questions/37397205/google-firebase-check-if-child-exists
+
+Passing objects with Intent.putExtra:
+    - http://stackoverflow.com/questions/18050030/intent-putextra-arraylistnamevaluepair
+
+Clearing focus for Edittexts:
+    - http://stackoverflow.com/questions/14424654/how-to-clear-focus-for-edittext
+
+Handling images (loading, rotation, etc):
+    - Loading: http://stackoverflow.com/questions/29047902/how-to-add-an-image-to-the-drawable-folder-in-android-studio
+    - Rotation: http://stackoverflow.com/questions/7978618/rotating-an-imageview-like-a-compass-with-the-north-pole-set-elsewhere
+
+Updating device location:
+    - DevPages: https://developer.android.com/training/location/receive-location-updates.html#updates
+    - Video Tutorial: https://www.youtube.com/watch?v=rEvwVf-qbDs
+
+Popovers (AlertDialogs):
+    - https://developer.android.com/reference/android/app/AlertDialog.Builder.html
+
+
+

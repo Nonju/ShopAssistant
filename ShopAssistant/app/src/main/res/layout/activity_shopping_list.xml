@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shopping_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="se.liu.ida.hanal086.hannes.shopassistant.ShoppingListActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/shoplist_statsLayout"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/shoplist_listAmountLabel"
+            android:id="@+id/shoplist_listAmountLabel"
+            android:layout_height="40dp"
+            android:textStyle="normal|bold"
+            android:gravity="center_vertical"
+            android:layout_width="@dimen/screenHalfWidth"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="@string/shoplist_listAmount"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/shoplist_listAmount"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/screenHalfHeight"
+        android:layout_below="@+id/shoplist_statsLayout"
+        android:layout_alignParentStart="true"
+        android:id="@+id/shoplist_listLayout">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shoplist_shopLists"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/shoplist_createNewListButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/defaultMediumButtonHeight"
+        android:text="@string/shoplist_createNewListButton"
+        android:textSize="@dimen/defaultButtonTextSize"
+        android:textAllCaps="false"
+        android:layout_below="@+id/shoplist_listLayout" />
+
+    <Button
+        android:text="@string/general_backToMainMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/shoplist_backToMainMenuButton"
+        android:textAllCaps="false"
+        android:textSize="@dimen/defaultButtonTextSize"/>
+
+</RelativeLayout>

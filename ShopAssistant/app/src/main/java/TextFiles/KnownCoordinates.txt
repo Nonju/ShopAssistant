@@ -1,0 +1,26 @@
+
+/*
+ *  Known coordinates for different locations to
+ *  manually enter into db in order to test compass.
+ *  (So don't have to actually walk there to get coordinate)
+ *
+ *  If working --> CompassNeedle should point towards
+ *  these IRL-locations from wherever testing is run from.
+ *
+ */
+
+Lgh:
+    Lat : 58.402714133262634
+    Long: 15.607988834381104
+
+StadsBiblioteket:
+    Lat : 58.4126816
+    Long: 15.6127907
+
+AbiskoCentrum:
+    Lat : 58.4157569
+    Long: 15.6053753
+
+Ica vasavägen:
+    Lat : 58.4151521
+    Long: 15.6093778
